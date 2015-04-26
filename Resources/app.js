@@ -10,7 +10,7 @@ var tabGroup = Titanium.UI.createTabGroup();
 var win1 = Titanium.UI.createWindow({  
   url: 'properties.js',
   title:'Properties',
-  backgroundColor:'#fff'
+  backgroundColor:'#000'
 });
 var tab1 = Titanium.UI.createTab({
   title:'Properties',
@@ -24,7 +24,7 @@ var win2 = Titanium.UI.createWindow({
 	url:'filesystem.js',
 	layout: 'vertical',
 	title:'Filesystem',
-	backgroundColor:'#fff'
+	backgroundColor:'#000'
 });
 var tab2 = Titanium.UI.createTab({  
     title:'Filesystem',
@@ -38,7 +38,7 @@ var tab2 = Titanium.UI.createTab({
 var win3 = Titanium.UI.createWindow({  
   url:'database.js',
     title:'Database',
-    backgroundColor:'#fff'
+    backgroundColor:'#000'
 });
 var tab3 = Titanium.UI.createTab({  
     title:'Database',
